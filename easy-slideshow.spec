@@ -21,7 +21,7 @@ Slideshow that displays the images of multiple folders in a randomized order.
 
 %build
 CONFIG=release qmake-qt5 .
-make -j16
+make
 
 %install
 INSTALL_ROOT="%{buildroot}" make install
