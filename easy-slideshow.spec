@@ -9,6 +9,9 @@ Source0:                 https://github.com/minils/%{name}/archive/v%{version}.t
 
 BuildRequires:           qt5-qtbase-devel
 BuildRequires:           qt5-rpm-macros
+BuildRequires:           libexif-devel
+Requires:                libexif
+Requires:                qt5-qtbase
 ExcludeArch:             noarch
 
 %description
